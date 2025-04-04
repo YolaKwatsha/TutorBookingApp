@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:clipToPadding="false"
+    android:background="@drawable/gradient"
+    android:divider="@android:color/transparent"
+    android:elevation="8dp"
+    android:dividerHeight="16dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tutorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutor Name"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/moduleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Module Name"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/bookingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Date"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/bookingTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Time"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/bookingDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duration"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/bookingStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

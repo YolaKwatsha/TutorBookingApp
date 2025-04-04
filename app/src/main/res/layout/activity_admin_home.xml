@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/buttonViewUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Users" />
+
+        <Button
+            android:id="@+id/buttonViewBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Booking" />
+
+        <Button
+            android:id="@+id/buttonViewTutorProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Tutor Profile" />
+
+        <Button
+            android:id="@+id/buttonViewStudentProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Student Profile" />
+
+        <Button
+            android:id="@+id/buttonViewModules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Modules" />
+
+        <Button
+            android:id="@+id/buttonViewTutorModules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Tutor Modules" />
+
+        <Button
+            android:id="@+id/buttonViewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Location" />
+
+        <Button
+            android:id="@+id/buttonViewPrices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Price" />
+
+        <Button
+            android:id="@+id/buttonViewTutorAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Tutor Availability" />
+
+        <Button
+            android:id="@+id/buttonViewFAQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Frequently Asked Questions" />
+
+        <Button
+            android:id="@+id/buttonViewReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Reviews" />
+
+        <Button
+            android:id="@+id/buttonViewReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Reports" />
+
+        <Button
+            android:id="@+id/buttonAdminLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+
+        <TextView
+            android:id="@+id/textViewUsers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Booking Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewTutorProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutor Profile Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewStudentProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutor Profile Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewTutorModule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutor Profile Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewModules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Module Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewPrices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewFrequentlyAskedQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewTutorAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tutor Availability Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Records"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Records"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
